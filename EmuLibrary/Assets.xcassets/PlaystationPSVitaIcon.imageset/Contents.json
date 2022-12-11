@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "40591c24dd469b7bec21f0ce67ccd1d6_psvita.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

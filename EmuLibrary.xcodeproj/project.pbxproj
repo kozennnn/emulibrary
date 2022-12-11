@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6755B4C22945252100321AEA /* EmuLibraryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6755B4C12945252100321AEA /* EmuLibraryApp.swift */; };
+		6755B4C42945252100321AEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6755B4C32945252100321AEA /* ContentView.swift */; };
+		6755B4C62945252200321AEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6755B4C52945252200321AEA /* Assets.xcassets */; };
+		6755B4C92945252200321AEA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6755B4C82945252200321AEA /* Preview Assets.xcassets */; };
+		6755B4D42945252200321AEA /* EmuLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6755B4D32945252200321AEA /* EmuLibraryTests.swift */; };
+		6755B4DE2945252200321AEA /* EmuLibraryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6755B4DD2945252200321AEA /* EmuLibraryUITests.swift */; };
+		6755B4E02945252200321AEA /* EmuLibraryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6755B4DF2945252200321AEA /* EmuLibraryUITestsLaunchTests.swift */; };
+		676EDFE8294601A00073026E /* GeneralSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676EDFE7294601A00073026E /* GeneralSettingsView.swift */; };
+		676EDFEB294602A20073026E /* Preferences in Frameworks */ = {isa = PBXBuildFile; productRef = 676EDFEA294602A20073026E /* Preferences */; };
+		676EDFED294603400073026E /* ConsoleSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676EDFEC294603400073026E /* ConsoleSettingsView.swift */; };
+		676EDFEF2946036D0073026E /* GameSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676EDFEE2946036D0073026E /* GameSettingsView.swift */; };
+		676EDFF1294604DE0073026E /* PanelIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676EDFF0294604DE0073026E /* PanelIdentifier.swift */; };
+		67B3ADD6294533A700EFADCC /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B3ADD5294533A700EFADCC /* SidebarView.swift */; };
+		67B3ADD829453E5200EFADCC /* SearchField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B3ADD729453E5200EFADCC /* SearchField.swift */; };
+		67B3ADDA2945413900EFADCC /* Console.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B3ADD92945413900EFADCC /* Console.swift */; };
+		67B3ADDC2945491300EFADCC /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B3ADDB2945491300EFADCC /* GameView.swift */; };
+		67B3ADDE29454A0100EFADCC /* GameListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B3ADDD29454A0100EFADCC /* GameListView.swift */; };
+		67B3ADE029454B5400EFADCC /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B3ADDF29454B5400EFADCC /* Game.swift */; };
+		67E75FE02946158700A03794 /* ConsoleFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E75FDF2946158700A03794 /* ConsoleFormView.swift */; };
+		67E75FE42946452E00A03794 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E75FE32946452E00A03794 /* UserDefaults.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6755B4D02945252200321AEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6755B4B62945252100321AEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6755B4BD2945252100321AEA;
+			remoteInfo = EmuLibrary;
+		};
+		6755B4DA2945252200321AEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6755B4B62945252100321AEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6755B4BD2945252100321AEA;
+			remoteInfo = EmuLibrary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6755B4BE2945252100321AEA /* EmuLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmuLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6755B4C12945252100321AEA /* EmuLibraryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmuLibraryApp.swift; sourceTree = "<group>"; };
+		6755B4C32945252100321AEA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6755B4C52945252200321AEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6755B4C82945252200321AEA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6755B4CA2945252200321AEA /* EmuLibrary.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EmuLibrary.entitlements; sourceTree = "<group>"; };
+		6755B4CF2945252200321AEA /* EmuLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmuLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6755B4D32945252200321AEA /* EmuLibraryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmuLibraryTests.swift; sourceTree = "<group>"; };
+		6755B4D92945252200321AEA /* EmuLibraryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmuLibraryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6755B4DD2945252200321AEA /* EmuLibraryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmuLibraryUITests.swift; sourceTree = "<group>"; };
+		6755B4DF2945252200321AEA /* EmuLibraryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmuLibraryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		676EDFE7294601A00073026E /* GeneralSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralSettingsView.swift; sourceTree = "<group>"; };
+		676EDFEC294603400073026E /* ConsoleSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleSettingsView.swift; sourceTree = "<group>"; };
+		676EDFEE2946036D0073026E /* GameSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSettingsView.swift; sourceTree = "<group>"; };
+		676EDFF0294604DE0073026E /* PanelIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanelIdentifier.swift; sourceTree = "<group>"; };
+		67B3ADD5294533A700EFADCC /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		67B3ADD729453E5200EFADCC /* SearchField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchField.swift; sourceTree = "<group>"; };
+		67B3ADD92945413900EFADCC /* Console.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Console.swift; sourceTree = "<group>"; };
+		67B3ADDB2945491300EFADCC /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		67B3ADDD29454A0100EFADCC /* GameListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameListView.swift; sourceTree = "<group>"; };
+		67B3ADDF29454B5400EFADCC /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		67E75FDF2946158700A03794 /* ConsoleFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleFormView.swift; sourceTree = "<group>"; };
+		67E75FE32946452E00A03794 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6755B4BB2945252100321AEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				676EDFEB294602A20073026E /* Preferences in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6755B4CC2945252200321AEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6755B4D62945252200321AEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6755B4B52945252100321AEA = {
+			isa = PBXGroup;
+			children = (
+				6755B4C02945252100321AEA /* EmuLibrary */,
+				6755B4D22945252200321AEA /* EmuLibraryTests */,
+				6755B4DC2945252200321AEA /* EmuLibraryUITests */,
+				6755B4BF2945252100321AEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6755B4BF2945252100321AEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6755B4BE2945252100321AEA /* EmuLibrary.app */,
+				6755B4CF2945252200321AEA /* EmuLibraryTests.xctest */,
+				6755B4D92945252200321AEA /* EmuLibraryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6755B4C02945252100321AEA /* EmuLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				676EDFEE2946036D0073026E /* GameSettingsView.swift */,
+				676EDFEC294603400073026E /* ConsoleSettingsView.swift */,
+				676EDFE7294601A00073026E /* GeneralSettingsView.swift */,
+				67B3ADDD29454A0100EFADCC /* GameListView.swift */,
+				67B3ADDB2945491300EFADCC /* GameView.swift */,
+				67B3ADD5294533A700EFADCC /* SidebarView.swift */,
+				6755B4C32945252100321AEA /* ContentView.swift */,
+				6755B4C12945252100321AEA /* EmuLibraryApp.swift */,
+				6755B4C52945252200321AEA /* Assets.xcassets */,
+				6755B4CA2945252200321AEA /* EmuLibrary.entitlements */,
+				6755B4C72945252200321AEA /* Preview Content */,
+				67B3ADD729453E5200EFADCC /* SearchField.swift */,
+				67B3ADD92945413900EFADCC /* Console.swift */,
+				67B3ADDF29454B5400EFADCC /* Game.swift */,
+				676EDFF0294604DE0073026E /* PanelIdentifier.swift */,
+				67E75FDF2946158700A03794 /* ConsoleFormView.swift */,
+				67E75FE32946452E00A03794 /* UserDefaults.swift */,
+			);
+			path = EmuLibrary;
+			sourceTree = "<group>";
+		};
+		6755B4C72945252200321AEA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6755B4C82945252200321AEA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6755B4D22945252200321AEA /* EmuLibraryTests */ = {
+			isa = PBXGroup;
+			children = (
+				6755B4D32945252200321AEA /* EmuLibraryTests.swift */,
+			);
+			path = EmuLibraryTests;
+			sourceTree = "<group>";
+		};
+		6755B4DC2945252200321AEA /* EmuLibraryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6755B4DD2945252200321AEA /* EmuLibraryUITests.swift */,
+				6755B4DF2945252200321AEA /* EmuLibraryUITestsLaunchTests.swift */,
+			);
+			path = EmuLibraryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6755B4BD2945252100321AEA /* EmuLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6755B4E32945252200321AEA /* Build configuration list for PBXNativeTarget "EmuLibrary" */;
+			buildPhases = (
+				6755B4BA2945252100321AEA /* Sources */,
+				6755B4BB2945252100321AEA /* Frameworks */,
+				6755B4BC2945252100321AEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmuLibrary;
+			packageProductDependencies = (
+				676EDFEA294602A20073026E /* Preferences */,
+			);
+			productName = EmuLibrary;
+			productReference = 6755B4BE2945252100321AEA /* EmuLibrary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6755B4CE2945252200321AEA /* EmuLibraryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6755B4E62945252200321AEA /* Build configuration list for PBXNativeTarget "EmuLibraryTests" */;
+			buildPhases = (
+				6755B4CB2945252200321AEA /* Sources */,
+				6755B4CC2945252200321AEA /* Frameworks */,
+				6755B4CD2945252200321AEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6755B4D12945252200321AEA /* PBXTargetDependency */,
+			);
+			name = EmuLibraryTests;
+			productName = EmuLibraryTests;
+			productReference = 6755B4CF2945252200321AEA /* EmuLibraryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6755B4D82945252200321AEA /* EmuLibraryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6755B4E92945252200321AEA /* Build configuration list for PBXNativeTarget "EmuLibraryUITests" */;
+			buildPhases = (
+				6755B4D52945252200321AEA /* Sources */,
+				6755B4D62945252200321AEA /* Frameworks */,
+				6755B4D72945252200321AEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6755B4DB2945252200321AEA /* PBXTargetDependency */,
+			);
+			name = EmuLibraryUITests;
+			productName = EmuLibraryUITests;
+			productReference = 6755B4D92945252200321AEA /* EmuLibraryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6755B4B62945252100321AEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					6755B4BD2945252100321AEA = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					6755B4CE2945252200321AEA = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 6755B4BD2945252100321AEA;
+					};
+					6755B4D82945252200321AEA = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 6755B4BD2945252100321AEA;
+					};
+				};
+			};
+			buildConfigurationList = 6755B4B92945252100321AEA /* Build configuration list for PBXProject "EmuLibrary" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6755B4B52945252100321AEA;
+			packageReferences = (
+				676EDFE9294602A20073026E /* XCRemoteSwiftPackageReference "Preferences" */,
+			);
+			productRefGroup = 6755B4BF2945252100321AEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6755B4BD2945252100321AEA /* EmuLibrary */,
+				6755B4CE2945252200321AEA /* EmuLibraryTests */,
+				6755B4D82945252200321AEA /* EmuLibraryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6755B4BC2945252100321AEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6755B4C92945252200321AEA /* Preview Assets.xcassets in Resources */,
+				6755B4C62945252200321AEA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6755B4CD2945252200321AEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6755B4D72945252200321AEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6755B4BA2945252100321AEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6755B4C42945252100321AEA /* ContentView.swift in Sources */,
+				67B3ADDA2945413900EFADCC /* Console.swift in Sources */,
+				676EDFE8294601A00073026E /* GeneralSettingsView.swift in Sources */,
+				67B3ADDE29454A0100EFADCC /* GameListView.swift in Sources */,
+				6755B4C22945252100321AEA /* EmuLibraryApp.swift in Sources */,
+				676EDFED294603400073026E /* ConsoleSettingsView.swift in Sources */,
+				67B3ADD829453E5200EFADCC /* SearchField.swift in Sources */,
+				67E75FE02946158700A03794 /* ConsoleFormView.swift in Sources */,
+				67B3ADDC2945491300EFADCC /* GameView.swift in Sources */,
+				67B3ADD6294533A700EFADCC /* SidebarView.swift in Sources */,
+				67B3ADE029454B5400EFADCC /* Game.swift in Sources */,
+				676EDFEF2946036D0073026E /* GameSettingsView.swift in Sources */,
+				67E75FE42946452E00A03794 /* UserDefaults.swift in Sources */,
+				676EDFF1294604DE0073026E /* PanelIdentifier.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6755B4CB2945252200321AEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6755B4D42945252200321AEA /* EmuLibraryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6755B4D52945252200321AEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6755B4E02945252200321AEA /* EmuLibraryUITestsLaunchTests.swift in Sources */,
+				6755B4DE2945252200321AEA /* EmuLibraryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6755B4D12945252200321AEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6755B4BD2945252100321AEA /* EmuLibrary */;
+			targetProxy = 6755B4D02945252200321AEA /* PBXContainerItemProxy */;
+		};
+		6755B4DB2945252200321AEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6755B4BD2945252100321AEA /* EmuLibrary */;
+			targetProxy = 6755B4DA2945252200321AEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6755B4E12945252200321AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6755B4E22945252200321AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		6755B4E42945252200321AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EmuLibrary/EmuLibrary.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EmuLibrary/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.kozen.EmuLibrary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6755B4E52945252200321AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EmuLibrary/EmuLibrary.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EmuLibrary/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.kozen.EmuLibrary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		6755B4E72945252200321AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.kozen.EmuLibraryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmuLibrary.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EmuLibrary";
+			};
+			name = Debug;
+		};
+		6755B4E82945252200321AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.kozen.EmuLibraryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmuLibrary.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EmuLibrary";
+			};
+			name = Release;
+		};
+		6755B4EA2945252200321AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.kozen.EmuLibraryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = EmuLibrary;
+			};
+			name = Debug;
+		};
+		6755B4EB2945252200321AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.kozen.EmuLibraryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = EmuLibrary;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6755B4B92945252100321AEA /* Build configuration list for PBXProject "EmuLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6755B4E12945252200321AEA /* Debug */,
+				6755B4E22945252200321AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6755B4E32945252200321AEA /* Build configuration list for PBXNativeTarget "EmuLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6755B4E42945252200321AEA /* Debug */,
+				6755B4E52945252200321AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6755B4E62945252200321AEA /* Build configuration list for PBXNativeTarget "EmuLibraryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6755B4E72945252200321AEA /* Debug */,
+				6755B4E82945252200321AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6755B4E92945252200321AEA /* Build configuration list for PBXNativeTarget "EmuLibraryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6755B4EA2945252200321AEA /* Debug */,
+				6755B4EB2945252200321AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		676EDFE9294602A20073026E /* XCRemoteSwiftPackageReference "Preferences" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/Preferences";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		676EDFEA294602A20073026E /* Preferences */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 676EDFE9294602A20073026E /* XCRemoteSwiftPackageReference "Preferences" */;
+			productName = Preferences;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 6755B4B62945252100321AEA /* Project object */;
+}

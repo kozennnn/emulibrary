@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "186487c5e4c206e333c04dd40c4a7c31_PS2.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
