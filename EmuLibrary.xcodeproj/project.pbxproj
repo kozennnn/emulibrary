@@ -26,7 +26,6 @@
 		67B3ADDE29454A0100EFADCC /* GameListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B3ADDD29454A0100EFADCC /* GameListView.swift */; };
 		67B3ADE029454B5400EFADCC /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B3ADDF29454B5400EFADCC /* Game.swift */; };
 		67E75FE02946158700A03794 /* ConsoleFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E75FDF2946158700A03794 /* ConsoleFormView.swift */; };
-		67E75FE42946452E00A03794 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E75FE32946452E00A03794 /* UserDefaults.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,7 +68,6 @@
 		67B3ADDD29454A0100EFADCC /* GameListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameListView.swift; sourceTree = "<group>"; };
 		67B3ADDF29454B5400EFADCC /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		67E75FDF2946158700A03794 /* ConsoleFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleFormView.swift; sourceTree = "<group>"; };
-		67E75FE32946452E00A03794 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,7 +135,6 @@
 				67B3ADDF29454B5400EFADCC /* Game.swift */,
 				676EDFF0294604DE0073026E /* PanelIdentifier.swift */,
 				67E75FDF2946158700A03794 /* ConsoleFormView.swift */,
-				67E75FE32946452E00A03794 /* UserDefaults.swift */,
 			);
 			path = EmuLibrary;
 			sourceTree = "<group>";
@@ -315,7 +312,6 @@
 				67B3ADD6294533A700EFADCC /* SidebarView.swift in Sources */,
 				67B3ADE029454B5400EFADCC /* Game.swift in Sources */,
 				676EDFEF2946036D0073026E /* GameSettingsView.swift in Sources */,
-				67E75FE42946452E00A03794 /* UserDefaults.swift in Sources */,
 				676EDFF1294604DE0073026E /* PanelIdentifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

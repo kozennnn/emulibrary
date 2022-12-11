@@ -10,31 +10,31 @@ import Preferences
 
 @main
 struct EmuLibraryApp: App {
-  
-
-        public let GeneralPreferenceViewController: () -> PreferencePane = {
-            let paneView = Preferences.Pane(
-                identifier: .general,
-                title: "General",
-                toolbarIcon: NSImage(systemSymbolName: "gearshape", accessibilityDescription: "General preferences")!
-            ) {
-                GeneralSettingsView()
-            }
-
-            return Preferences.PaneHostingController(pane: paneView)
+    
+    
+    public let GeneralPreferenceViewController: () -> PreferencePane = {
+        let paneView = Preferences.Pane(
+            identifier: .general,
+            title: "General",
+            toolbarIcon: NSImage(systemSymbolName: "gearshape", accessibilityDescription: "General preferences")!
+        ) {
+            GeneralSettingsView()
         }
         
-        let ConsolePreferenceViewController: () -> PreferencePane = {
-            let paneView = Preferences.Pane(
-                identifier: .console,
-                title: "Console",
-                toolbarIcon: NSImage(systemSymbolName: "externaldrive.connected.to.line.below", accessibilityDescription: "Console management")!
-            ) {
-                ConsoleSettingsView()
-            }
-
-            return Preferences.PaneHostingController(pane: paneView)
+        return Preferences.PaneHostingController(pane: paneView)
+    }
+    
+    let ConsolePreferenceViewController: () -> PreferencePane = {
+        let paneView = Preferences.Pane(
+            identifier: .console,
+            title: "Console",
+            toolbarIcon: NSImage(systemSymbolName: "externaldrive.connected.to.line.below", accessibilityDescription: "Console management")!
+        ) {
+            ConsoleSettingsView()
         }
+        
+        return Preferences.PaneHostingController(pane: paneView)
+    }
     
     let GamePreferenceViewController: () -> PreferencePane = {
         let paneView = Preferences.Pane(
@@ -44,7 +44,7 @@ struct EmuLibraryApp: App {
         ) {
             GameSettingsView()
         }
-
+        
         return Preferences.PaneHostingController(pane: paneView)
     }
     

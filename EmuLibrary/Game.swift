@@ -15,7 +15,7 @@ struct Game: Identifiable, CaseIterable, Hashable {
         hasher.combine(name)
     }
     
-  let id: UUID
-  let name: String
-  let image: Image
+    let id: UUID
+    let name: String
+    let image: Image
 }

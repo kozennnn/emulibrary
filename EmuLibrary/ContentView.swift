@@ -9,28 +9,24 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        // 1
         NavigationView {
-          // 2
             SidebarView()
-        
+            
             VStack {
-                Image(systemName: "globe")
+                Image(systemName: "gamecontroller")
                     .imageScale(.large)
                     .foregroundColor(.accentColor)
                 Text("Sélectionnez une console")
-                //GameView()
             }
             .padding()
         }
-        // 3
         .frame(
-          minWidth: 700,
-          idealWidth: 1000,
-          maxWidth: .infinity,
-          minHeight: 400,
-          idealHeight: 800,
-          maxHeight: .infinity)
+            minWidth: 700,
+            idealWidth: 1000,
+            maxWidth: .infinity,
+            minHeight: 400,
+            idealHeight: 800,
+            maxHeight: .infinity)
     }
 }
 

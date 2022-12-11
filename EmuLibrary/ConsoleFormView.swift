@@ -18,32 +18,21 @@ struct ConsoleFormView: View {
     
     var body: some View {
         VStack {
-            TextField(
-                    "Console name",
-                    text: $name
-                )
-            TextField(
-                    "Console brand",
-                    text: $brand
-                )
+            TextField("Console name", text: $name)
+            TextField("Console brand", text: $brand)
             if (icon != nil) {
                 Image(nsImage: NSImage(contentsOfFile: icon!.path)!)
                     .resizable()
                     .frame(width: 64, height: 64)
             }
-            Text(icon?.path ?? "flop")
+            Text(icon?.path ?? "Aucune icone sélectionnée")
             Button(action: {
                 showFileImporter = true
             }, label: {
                 Text("Sélectionner une icone")
             })
             Button(action: {
-                /*let console = Console(id: UUID(),
-                                      name: name,
-                                      brand: brand,
-                                      image: Image(nsImage: NSImage(contentsOfFile: icon!.path)!))*/
                 self.save()
-                
             }, label: {
                 Text("Ajouter")
             }).disabled(name == "" || icon == nil)
@@ -54,14 +43,14 @@ struct ConsoleFormView: View {
             } catch {
                 
                 print("error reading docs")
-
+                
                 print(error.localizedDescription)
-
-                }
-
+                
+            }
+            
             
         }
-
+        
     }
     
     func save() {

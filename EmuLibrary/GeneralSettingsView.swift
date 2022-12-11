@@ -41,8 +41,8 @@ struct GeneralSettingsView: View {
                     Text("After 3 minute").tag(1)
                     Text("After 5 minute").tag(2)
                 }
-                    .labelsHidden()
-                    .frame(width: 120.0)
+                .labelsHidden()
+                .frame(width: 120.0)
                 Text("The app will automatically close the window and save the note.")
                     .preferenceDescription()
             }
